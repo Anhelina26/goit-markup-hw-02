@@ -1,0 +1,53 @@
+:root {
+--primary-text-color: #212121;
+--title-text-color: #757575;
+--accent-color: #FFFFFF;
+}
+
+
+body {
+    background-color: #F5F5F5;
+    color:#212121;
+}
+.logo {
+    color: #000000;
+}
+ 
+ul {
+    list-style: none;
+} 
+
+/* Site nav*/
+
+.site-nav a{
+    color: #212121;
+}
+.site-nav  :hover{
+    color: #2196F3;
+}
+
+/* Hero*/
+.hero {
+    background-color: #2F303A;
+    color: var(--accent-color);
+    font-style: normal;
+    font-weight: 900;
+}
+.button {
+    color: var(--accent-color);
+    background-color: #2196F3;
+}
+
+/* Sections*/
+.features .features-titles {
+  color: var(--primary-text-color);
+}
+.featurs-paragraf {
+    color: var(--title-text-color)
+}
+.team-paragraf {
+    color: #757575;
+}
+
+/*footer*/
+
