@@ -1,11 +1,14 @@
 :root {
---primary-text-color: #212121;
---title-text-color: #757575;
+--title-text-color: #212121;
 --accent-color: #FFFFFF;
+--paragraf-color: #757575;
+
 }
 
 
 body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #F5F5F5;
     color:#212121;
 }
@@ -15,39 +18,153 @@ body {
  
 ul {
     list-style: none;
-} 
-
-/* Site nav*/
-
-.site-nav a{
-    color: #212121;
+} /* -------Header-----------*/
+.logo {
+    color: #000000;
 }
-.site-nav  :hover{
+.logo-header {
+    color: #2196F3;
+}
+.site-nav .link {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-nav .link:hover ,
+.site-nav .link:focus{
     color: #2196F3;
 }
 
-/* Hero*/
+.link {
+    text-decoration: none ;
+}
+
+.auth-nav .auth-mail {
+    color: #757575;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.auth-nav .auth-tel {
+    color: #757575;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.auth-nav .auth-mail:hover,
+.auth-nav .auth-mail:focus {
+    color: #2196F3;
+}
+.auth-nav .auth-tel:hover,
+.auth-nav .auth-tel:focus{
+    color: #2196F3;
+}
+
+/*----------Hero--------------*/
 .hero {
     background-color: #2F303A;
-    color: var(--accent-color);
-    font-style: normal;
+}
+.hero .title-hero {
     font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--accent-color)
 }
 .button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     color: var(--accent-color);
     background-color: #2196F3;
 }
-
-/* Sections*/
-.features .features-titles {
-  color: var(--primary-text-color);
+.fetures .features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    color:var(--title-text-color) ;
 }
-.featurs-paragraf {
-    color: var(--title-text-color)
-}
-.team-paragraf {
-    color: #757575;
-}
+.features .features-paragraf {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--paragraf-color);
 
-/*footer*/
 
+}
+.technology .technology-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.team .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+ .team .team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--title-text-color);
+ }
+ .team .team-paragraf {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--paragraf-color)
+ }
+ /*---------Footer-------------*/
+ .footer {
+   background-color: #2F303A;
+ }
+ .address .address-name {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+ }
+ .address .address-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+ }
+ .address .address-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72px;
+    letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
+    }
