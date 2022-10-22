@@ -5,6 +5,7 @@
 --primary-accent-color:#2196F3;
 --second-background-color: #2F303A;
 --primary-background-color: #F5F5F5;
+--text-color: #000000;
 
 }
 
@@ -21,14 +22,14 @@ ul {
 } /* -------Header-----------*/
 .logo {
     font-family: Raleway;
-    color: #000000;
+    color: var(--primary-accent-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2px;
     letter-spacing: 0.03em;
 }
 .logo-header {
-    color: #2196F3;
+    color: var(--text-color);
 }
 .site-nav .link {
     color: var(--title-text-color);
@@ -38,7 +39,7 @@ ul {
 }
 .site-nav .link:hover ,
 .site-nav .link:focus{
-    color: #2196F3;
+    color: var(--primary-accent-color);
 }
 .site-nav .link.current {
     color: var(--primary-accent-color)
@@ -81,6 +82,7 @@ ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--white-color)
 }
 .button {
@@ -97,8 +99,6 @@ ul {
     border: none;
 }
 .features-title {
-    font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color:var(--title-text-color) ;
@@ -115,9 +115,7 @@ ul {
     color:var(--paragraf-color);
 }
 .section-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
+   font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
@@ -140,16 +138,15 @@ ul {
  }
  /*---------Footer-------------*/
  .footer {
-   background-color: #2F303A;
- }
+   background-color: var(--title-text-color);
+}
 
  .logo-footer {
     font-family: 'Raleway';
     color: var(--primary-accent-color);
-    line-height: 0.21;
     letter-spacing: 0.03em;
-
- }
+    font-size:26px;
+}
 
  .logo .logo-studio {
     color: var(--white-color);
@@ -163,14 +160,12 @@ ul {
  }
  .address .address-mail {
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);;
  }
  .address .address-tel {
-    font-size: 14px;
-    font-style: normal;
+     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -190,7 +185,7 @@ ul {
 .button-portfolio:hover ,
 .button-portfolio:focus  {
     color: var(--accent-color);
-    background-color:  #2196F3; 
+    background-color: var(--primary-accent-color); 
 }
  .galery-title {
      font-size: 18px;
@@ -200,7 +195,7 @@ ul {
 }
 .galery-paragraf {
    font-size: 16px;
-    line-height: 1.9px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--paragraf-color);
 }
